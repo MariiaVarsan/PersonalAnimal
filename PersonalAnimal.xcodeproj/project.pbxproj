@@ -56,15 +56,55 @@
 		51BBEC5A27F46B2700319E69 /* PersonalAnimal */ = {
 			isa = PBXGroup;
 			children = (
-				51BBEC5B27F46B2700319E69 /* AppDelegate.swift */,
-				51BBEC5D27F46B2700319E69 /* SceneDelegate.swift */,
-				51BBEC5F27F46B2700319E69 /* ViewController.swift */,
-				51BBEC6127F46B2700319E69 /* Main.storyboard */,
-				51BBEC6427F46B2900319E69 /* Assets.xcassets */,
-				51BBEC6627F46B2900319E69 /* LaunchScreen.storyboard */,
-				51BBEC6927F46B2900319E69 /* Info.plist */,
+				51BBEC6F27F46B7800319E69 /* ViewControllers */,
+				51BBEC7327F46BF200319E69 /* Models */,
+				51BBEC7227F46BD500319E69 /* Storeboards */,
+				51BBEC7127F46BB800319E69 /* Resources */,
+				51BBEC7027F46BA000319E69 /* App */,
 			);
 			path = PersonalAnimal;
+			sourceTree = "<group>";
+		};
+		51BBEC6F27F46B7800319E69 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				51BBEC5F27F46B2700319E69 /* ViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		51BBEC7027F46BA000319E69 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				51BBEC5B27F46B2700319E69 /* AppDelegate.swift */,
+				51BBEC5D27F46B2700319E69 /* SceneDelegate.swift */,
+				51BBEC6927F46B2900319E69 /* Info.plist */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		51BBEC7127F46BB800319E69 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				51BBEC6427F46B2900319E69 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		51BBEC7227F46BD500319E69 /* Storeboards */ = {
+			isa = PBXGroup;
+			children = (
+				51BBEC6127F46B2700319E69 /* Main.storyboard */,
+				51BBEC6627F46B2900319E69 /* LaunchScreen.storyboard */,
+			);
+			path = Storeboards;
+			sourceTree = "<group>";
+		};
+		51BBEC7327F46BF200319E69 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -290,10 +330,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = PersonalAnimal/Info.plist;
+				INFOPLIST_FILE = PersonalAnimal/App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -305,7 +346,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -317,10 +358,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = PersonalAnimal/Info.plist;
+				INFOPLIST_FILE = PersonalAnimal/App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -332,7 +374,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
