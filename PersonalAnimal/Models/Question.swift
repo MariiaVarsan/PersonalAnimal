@@ -77,5 +77,3 @@ enum Animal: Character {
     }
 }
 
-
-
